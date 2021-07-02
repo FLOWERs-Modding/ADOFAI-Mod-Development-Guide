@@ -117,4 +117,4 @@ public static class PatchTest {
 
 
 
-[페이지 이동] [[⬅]](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/README.md) [➡] (2/5)
+[[⬅]](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/README.md) [➡] (2/5)
