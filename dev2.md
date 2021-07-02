@@ -124,7 +124,7 @@ public static class PatchTest {
 ```
 "ref는 왜 사용하나요?" 같은 의문이 들수도 있습니다 그 까닭은 ref 키워드를 사용해야 변경된 값을 전달할수 있기 때문입니다.
 
-## "그래서 얼불춤 클래스를 어떻게 아나요?"
+## "그래서 얼불춤 클래스와 메소드를 어떻게 아나요?"
 차근차근 설명할거에요 그래도 바로 알고싶다면 [여기](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev6.md)를 참고해보세요.
 
 
