@@ -4,8 +4,9 @@
  혹시 모드 설치 방법을 찾는거라면 [UMM 설치 가이드](https://github.com/CrackThrough/ADOFAI-Mod-Installation-Guide/blob/main/kor/use-1.md) 와 [모드 적용 가이드](https://github.com/CrackThrough/ADOFAI-Mod-Installation-Guide/blob/main/kor/use-2.md)를 참고해주세요
  
 ## 목차
- - 시작 전 준비물
- - 프로젝트 생성
+ - 프로젝트 기본 설정
+ - [메소드 패치](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev2.md)
+ - GUI 띄우기
  - 프로젝트 빌드
 
 ## 1. 시작 전 준비물
@@ -16,4 +17,4 @@
 ## 2. 프로젝트 생성
 
 
-[➡](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev2.md) (1/5)
+페이지 이동 [➡](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev2.md) (1/5)
