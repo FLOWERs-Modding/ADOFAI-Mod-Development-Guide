@@ -7,3 +7,5 @@
  - [Visual Studio 2019](https://visualstudio.microsoft.com/ko/vs/)
  - 얼불춤 ( UMM이 설치된 상태 )
  - [.NET Framework 4.8](https://go.microsoft.com/fwlink/?linkid=2088517)
+
+## 1. 프로젝트 생성
