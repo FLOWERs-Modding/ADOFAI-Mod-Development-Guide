@@ -17,4 +17,4 @@
 ## 2. 프로젝트 생성
 
 
-페이지 이동 [➡](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev2.md) (1/5)
+[페이지 이동]  [[➡]](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev2.md) (1/5)
