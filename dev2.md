@@ -23,4 +23,4 @@ public static class Test {
 위에 Test같은 클래스는 이름은 아무렇게나 막 지으셔도 상관없습니다.
 
 
-[⬅](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/README.md) ➡ (2/5)
+[페이지 이동] [[⬅]](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/README.md) [➡] (2/5)
