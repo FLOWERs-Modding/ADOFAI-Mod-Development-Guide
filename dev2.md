@@ -4,7 +4,7 @@
  - [GUI 띄우기](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev3.md)
  - [모드 설정창](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev4.md)
  - [프로젝트 빌드](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev5.md)
- - [번외. 얼불춤 코드 보기](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev6.md)
+ - [얼불춤 코드 보기](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev6.md)
 
 # 메소드 패치
 모든 모드들은 메소드(함수)를 패치(수정) 하기 위해서 `0Harmony.dll`을 사용합니다      
@@ -124,7 +124,7 @@ public static class PatchTest {
 ```
 "ref는 왜 사용하나요?" 같은 의문이 들수도 있습니다 그 까닭은 ref 키워드를 사용해야 변경된 값을 전달할수 있기 때문입니다.
 
-## "오케이 알겠어요 그래서 얼불춤 클래스를 어떻게 아나요?"
+## "그래서 얼불춤 클래스를 어떻게 아나요?"
 성질 급하시네요 [여기](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev6.md)를 참고해보세요.
 
 
