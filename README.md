@@ -1,2 +1,3 @@
-# ADOFAI-Mod-Development-Guide
-얼불춤 모드 개발 가이드
+# 얼불춤 모드 개발 가이드
+
+## 시작 전 준비물
