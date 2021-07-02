@@ -41,9 +41,9 @@ public static class Test {
 `false`를 반환하면 거기서 끝, 원본 메소드가 실행되지 않습니다. ( Prefix 일때 )  
 
 ```c#
-public static class TestClass {
+public class TestClass {
   //패치할 테스트 메소드
-  public staic void Test(){
+  public void Test(){
     Console.WriteLine("안녕 세상!");
   }
 }
@@ -72,16 +72,16 @@ public static class PatchTest {
  - `___필드이름`, `private`이어도 해당 필드를 가져옵니다.  
  - `__원본-메소드의-매개변수-이름`, 인수를 가져옵니다.
 ```c#
-public static class OriginalClass {
-  public static int a = 1;
-  private static string pri = "private";
+public class OriginalClass {
+  public int a = 1;
+  private string pri = "private";
 
-  public static void start() {
+  public void start() {
     Test(1);
   }
-  public static void Test(int n){
+  public void Test(int n){
   }
-  public static void ASDF(){
+  public void ASDF(){
     Console.WriteLine("asdf");
   }
 }
@@ -101,8 +101,8 @@ public static class PatchClass {
 ```
  - `__result`, 원본 메소드의 리턴값을 바꿀수 있습니다.
 ```c#
-public static class OriginalClass {
-  public static int Add(int a, int b){
+public class OriginalClass {
+  public int Add(int a, int b){
     return a+b;
   }
 }
