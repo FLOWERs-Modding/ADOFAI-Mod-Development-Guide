@@ -21,7 +21,7 @@
 ![프로젝트생성](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/img/make.png?raw=true)
 새 프로젝트 만들기 클릭     
     
-![선택](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/img/select.png?raw=true)
+![선택](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/img/select2.png?raw=true)
 클래스 라이브러리 (.NET Framework) 선택 후 다음 클릭
 
 
