@@ -8,7 +8,7 @@
  - [얼불춤 코드 보기](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev6.md)
 
 ## GUI 띄우기
- GUI를 띄우기 위해서는 UnityEngine.dll, UnityEngine-Core.dll, UnityEngine-IMGUI.dll, UnityEngine-UI.dll을 참조해야 합니다
+ GUI를 띄우기 위해서는 `UnityEngine.dll`, `UnityEngine.CoreModule.dll`, `UnityEngine.IMGUIModule.dll`, `UnityEngine.UI.dll`을 참조해야 합니다
 
 ## 1. 새 C# 파일 생성
 
