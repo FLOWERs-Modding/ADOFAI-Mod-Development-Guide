@@ -76,7 +76,7 @@ public static class PatchTest {
     
  - 가장 많이 쓰는 `__instance`, 말 그대로 인스턴스를 가져옵니다.  
  - `___필드이름`, `private`이어도 해당 필드를 가져옵니다.  
- - `__원본-메소드의-매개변수-이름`, 인수를 가져옵니다.
+ - `원본-메소드의-매개변수-이름`, 인수를 가져옵니다.
 ```c#
 public class OriginalClass {
   public int a = 1;
@@ -96,11 +96,11 @@ public static class PatchClass {
 
   [HarmonyPatch(typeof(OriginalClass),"Test")]
   public static class Test {
-    public static void Prefix(OriginalClass __instance, string ___pri, int __n) {
+    public static void Prefix(OriginalClass __instance, string ___pri, int n) {
       __instance.ASDF();
       Console.WriteLine(__instance.a); //result - 1
       Console.WriteLine(___pri); //result - private
-      Console.WriteLine(__n); //result - 1
+      Console.WriteLine(n); //result - 1
     }
   }
 }
