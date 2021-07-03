@@ -80,7 +80,7 @@ public static class Main
 ```
 
 ### Setup을 public이 아닌 internal로 하는 이유?
-public은 프로젝트 내에서만 접근이 가능합니다, UMM은 외부 프로젝트에서 접근하기 때문에 internal을 사용해야합니다
+public은 프로젝트 내에서만 접근이 가능합니다, 외부 프로젝트에서 접근 하기 때문에 internal을 사용해야합니다
 
 ### 짤막 팁
 ![빨강](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/img/redline.png?raw=true)     
