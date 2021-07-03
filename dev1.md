@@ -33,14 +33,14 @@
 
 ## 4. 셋업 만들기
 ![탭들](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/img/tabs.png?raw=true)     
-프로젝트 생성될때 같이 생긴 Class1.cs을 우클릭 후 이름을 바꿔서 Main.cs라고 지정해주고 정적으로 해줍니다.
+프로젝트 생성될때 같이 생긴 Class1.cs을 우클릭 후 이름을 바꿔서 Main.cs라고 지정해주고 정적(static) 으로 해주세요
 ```cs
 public static class Main
 {
 }
 ```
-그리고 Setup, OnToggle이라는 메소드도 같이 만들어줍니다.      
-Setup은 UMM이 이 모드를 실행할때 처음 시작하는 메소드입니다.
+그리고 Setup, OnToggle이라는 메소드도 같이 만들어주세요    
+Setup은 UMM이 이 모드를 실행할때 처음 시작하는 메소드입니다
 
 ```cs
 public static class Main
