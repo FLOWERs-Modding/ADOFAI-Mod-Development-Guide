@@ -69,3 +69,5 @@ GUI.Label(new Rect(x,y,가로,세로), 텍스트, textStyle);
 ```
 
 텍스트뿐만 아니라 다른 것도 가능하고 더욱 자세한건 [문서](https://docs.unity3d.com/ScriptReference/GUIStyle.html)를 참고해주세요
+
+[[⬅]]() [[➡]]() (3/6)
