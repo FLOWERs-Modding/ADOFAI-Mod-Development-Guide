@@ -23,6 +23,7 @@
     <br>
 ![선택](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/img/select2.png?raw=true)
 클래스 라이브러리 (.NET Framework) 선택 후 다음 클릭     
+프레임워크는 4.8을 추천합니다
 만약 클래스 라이브러리가 없다면 Visual Studio Installer에서 .NET 데스크톱 개발을 설치해 주세요    
 
 ## 3. 레퍼런스 참조
