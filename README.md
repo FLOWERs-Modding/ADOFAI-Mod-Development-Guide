@@ -20,13 +20,20 @@
 ## 2. 프로젝트 생성
 ![프로젝트생성](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/img/make.png?raw=true)
 새 프로젝트 만들기 클릭     
-    
+    <br>
 ![선택](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/img/select2.png?raw=true)
-클래스 라이브러리 (.NET Framework) 선택 후 다음 클릭
-
-
+클래스 라이브러리 (.NET Framework) 선택 후 다음 클릭     
+만약 클래스 라이브러리가 없다면 Visual Studio Installer에서 .NET 데스크톱 개발을 설치해 주세요    
 
 ## 3. 레퍼런스 참조
+![참조](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/img/add.png?raw=true)      
+맨 오른쪽에 있는 탭들중 `참조` 우클릭후 `참조 추가` 클릭    
+    
+`찾아보기`를 누른 후 아래에 있는 항목들을 모두 참조해주세요.
+ - <얼불춤경로>/A Dance of Fire and Ice_Data/Managed/UnityModManager/0Harmony.dll
+ - <얼불춤경로>/A Dance of Fire and Ice_Data/Managed/UnityModManager/UnityModManager.dll
+ - <얼불춤경로>/A Dance of Fire and Ice_Data/Managed/Assembly-CSharp.dll
+
 
 ## 4. 셋업 만들기
 
