@@ -10,11 +10,11 @@
 모드를 다 만들었다면 이제 프로젝트를 빌드해야합니다.
 
 ## 1. 빌드
-![빌드]()     
+![빌드](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/raw/main/img/build.png?raw=true)     
 맨 위 탭들에서 `빌드`를 누른 후 `솔루션 빌드`를 누르면 빌드가 됩니다.     
 이게 귀찮다면 `Ctrl` + `Shift` + `B`를 누르면 바로 빌드가 됩니다.    
 <br>
-![성공]()
+![성공](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/raw/main/img/comp.png?raw=true)
 위 사진처럼    
 `성공 1, 실패 0` 뜬다면 빌드 성공, 아니면 빌드 실패입니다   
 빌드가 실패되도 문제되는 내용을 보여주니 차근차근 해보길 바랍니다
