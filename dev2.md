@@ -134,6 +134,16 @@ public static class PatchTest {
 ## "그래서 얼불춤 클래스와 메소드를 어떻게 찾나요?"
 차근차근 설명할거에요 그래도 바로 알고싶다면 [여기](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev6.md)를 참고해보세요.
 
+### 짤막 팁
+private 필드를 불러올때는 굳이 파람미터 안쓰고 리플렉션을 이용해서 불러올 수 있습니다.   
+```cs
+typeof(T).GetField(Method_Name, AccessTools.all)?.GetValue(Class_Instance);
+```
+값을 설정하는 것도 가능하고 꼭 필드가 아니어도 가능합니다    
+더욱 더 자세한건 [공식 문서](https://docs.microsoft.com/ko-kr/dotnet/api/system.reflection?view=net-5.0)를 
+
+
+
 
 
 [[⬅]](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev1.md) [[➡]](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev3.md) (2/6)
