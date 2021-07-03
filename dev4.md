@@ -8,7 +8,8 @@
 
 ## 모드 설정창 
 ![설정창](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/img/setting.png?raw=true)   
-위 사진처럼 모드 설정을 할때가 있고 또 저장을 할 때가 있습니다
+위 사진처럼 모드 설정창이 필요하고 이를 저장하는 기능이 필요할때가 있습니다   
+이떄 UnityModManager.ModEntry에 `OnGUI`와 `OnSaveGUI`를 사용합니다.
 
 ## 1. OnGUI
 [프로젝트 기본 설정](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev1.md)에서 만들었던 Main.cs로 돌아가고 `OnGUI` 를 만들어 줍니다. 
