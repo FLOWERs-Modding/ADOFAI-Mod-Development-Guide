@@ -80,4 +80,8 @@ UnityEngine.Object.DontDestroyOnLoad(test);
 UnityEngine.Object.DestroyImmediate(test);
 ```
 
+## 팁
+`OnGUI`는 비교적 렉이 조금 걸립니다. 하지만 쉽게 UI를 생성할 수 있습니다.    
+본인이 어느정도 실력이 쌓였다 생각하면 `OnGUI`대신 렉이 덜 걸리는 `Canvas`로 UI를 띄워보세요
+
 [[⬅]](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev2.md) [[➡]](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev4.md) (3/6)
