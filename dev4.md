@@ -8,7 +8,7 @@
 
 ## 모드 설정창 
 ![설정창](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/img/setting.png?raw=true)   
-와 같이 만들 수 있습니다
+위 사진처럼 모드 설정을 할때가 있고 또 저장을 할 때가 있습니다
 
 ## 1. OnGUI
 [프로젝트 기본 설정](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev1.md)에서 만들었던 Main.cs로 돌아가고 `OnGUI` 를 만들어 줍니다. 
@@ -34,6 +34,10 @@ private static void OnSaveGUI(UnityModManager.ModEntry modEntry)
 ```cs
 public class Setting : UnityModManager.ModSettings
 {
+  //타입은 임시로 해둔거지 꼭 이렇게 하라는건 아닙니다
+  public string 원하는설정이름 = 기본값;
+  public bool 원하는설정이름2 = 기본값2;
+  public int 원하는설정이름3 = 기본값3;
 
   public override void Save(UnityModManager.ModEntry modEntry) {
     var filepath = GetPath(modEntry);
@@ -52,4 +56,19 @@ public class Setting : UnityModManager.ModSettings
   
 }
 ```
+다시 Main.cs로 돌아와 ```public static Setting setting;```라는 전역변수를 하나 생성합니다    
+`Setup`에는 아래를 추가하고
+```cs
+setting = new Setting();
+setting = UnityModManager.ModSettings.Load<Setting>(modEntry);
+```
+`OnSaveGUI`에는 ```setting.Save(modEntry);```를 추가합니다
+
+## 3. 적용
+정말 간단하게 `OnToggle`에서 
+```cs
+modEntry.OnGUI = OnGUI;
+modEntry.OnSaveGUI = OnSaveGUI;
+```
+를 추가하시면 적용이 완료됩니다.
 
