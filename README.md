@@ -18,6 +18,13 @@
  - [dnspy](https://github.com/dnSpy/dnSpy/releases/download/v6.1.8/dnSpy-net-win64.zip)
 
 ## 2. 프로젝트 생성
+![프로젝트생성](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/img/make.png?raw=true)
+새 프로젝트 만들기 클릭     
+    
+![선택](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/img/select.png?raw=true)
+클래스 라이브러리 (.NET Framework) 선택 후 다음 클릭
+
+
 
 ## 3. 레퍼런스 참조
 
