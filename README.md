@@ -19,5 +19,8 @@
 
 ## 2. 프로젝트 생성
 
+## 3. 레퍼런스 참조
+
+## 4. 셋업 만들기
 
 [X] [[➡]](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev2.md) (1/6)
