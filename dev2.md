@@ -9,11 +9,11 @@
 # 메소드 패치
 모든 모드들은 메소드(함수)를 패치(수정) 하기 위해서 `0Harmony.dll`을 사용합니다      
 
-## 새 클래스 추가하기
+# 새 클래스 추가하기
 ![클래스선택](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/raw/main/img/class.png?raw=true)    
 프로젝트이름 선택 ( 저는 프로젝트 이름을 ClassLibrary2 으로 해둠 ) -> 추가 -> 새 항목     
 <br>
-![항목선택](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/raw/main/img/c.png?raw=true)    
+![항목선택](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/raw/main/img/cselect.png?raw=true)    
 클래스 선택 후 추가를 누르면 새 클래스가 추가가 됩니다.
 
 ## 1. HarmonyPatch 
