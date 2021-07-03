@@ -5,7 +5,7 @@
  - **GUI 띄우기**
  - [모드 설정창](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev4.md)
  - [프로젝트 빌드](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev5.md)
- - [번외. 얼불춤 코드 보기](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev6.md)
+ - [얼불춤 코드 보기](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev6.md)
 
 ## GUI 띄우기
  GUI를 띄우기 위해서는 UnityEngine.dll, UnityEngine-Core.dll, UnityEngine-IMGUI.dll, UnityEngine-UI.dll을 참조해야 합니다
