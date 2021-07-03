@@ -70,4 +70,14 @@ GUI.Label(new Rect(x,y,가로,세로), 텍스트, textStyle);
 
 텍스트뿐만 아니라 다른 것도 가능하고 더욱 자세한건 [문서](https://docs.unity3d.com/ScriptReference/GUIStyle.html)를 참고해주세요
 
+## 4. 생성
+```cs
+TestGUI test = new GameObject().AddComponent<TestGUI>();
+UnityEngine.Object.DontDestroyOnLoad(test);
+```
+반대로 없앨때는
+```cs
+UnityEngine.Object.DestroyImmediate(test);
+```
+
 [[⬅]](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev2.md) [[➡]](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev4.md) (3/6)
