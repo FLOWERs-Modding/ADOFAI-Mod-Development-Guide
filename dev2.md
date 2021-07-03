@@ -129,4 +129,4 @@ public static class PatchTest {
 
 
 
-[[⬅]](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/README.md) [[➡]](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev3.md) (2/6)
+[[⬅]](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev1.md) [[➡]](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev3.md) (2/6)
