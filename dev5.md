@@ -67,7 +67,7 @@ UMM이 모드를 읽기 위해서는 Info.json이라는게 필요합니다
 폴더를 가장 처음만든 바탕화면으로 돌아와 처음만든 폴더를 압축합니다   
 
 ## 4. 적용
-![적용](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/raw/main/img/apply.png?raw=true)
+![적용](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/raw/main/img/apply.png?raw=true) <br>
 UMM을 키고 압축한 파일을 모드로 적용하면 끝
 
 
