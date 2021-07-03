@@ -82,4 +82,9 @@ public static class Main
 ### Setup을 public이 아닌 internal로 하는 이유?
 public은 프로젝트 내에서만 접근이 가능합니다, UMM은 외부 프로젝트에서 접근하기 때문에 internal을 사용해야합니다
 
+### 짤막 팁
+![빨강](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/img/redline.png?raw=true)     
+위와 같이 빨간줄이 뜬다면 빨간줄이 뜬 텍스트에 마우스를 갖다대고 `Alt` + `Enter`를 눌러보세요    
+![팁](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/img/altenter.png?raw=true)     
+
 [X] [[➡]](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev2.md) (1/6)
