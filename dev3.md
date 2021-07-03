@@ -26,7 +26,7 @@ public class TestGUI : MonoBehaviour {
 `GUI`는 따로 위치를 설정해줘야 하지만 `GUILayout`은 레이아웃에서 위치를 자동으로 설정해줍니다     
      
 만약 `GUI`로 텍스트 하나를 추가한다고 치면 `Rect`를 이용해 위치와 크기를 설정해야합니다.    
-```c#
+```cs
 //GUI
 GUI.Label(new Rect(x, y, 가로크기, 세로크기), 텍스트);
 //GUILayout
@@ -35,7 +35,7 @@ GUILayout.Label(텍스트);
 왼쪽위 기준으로 생성됩니다.   
    
 버튼과 토글 또는 슬라이더같이 실시간으로 값이 변할수 있는 애들은 리턴값이 변한 값입니다
-```c#
+```cs
 //버튼을 누르면 코드 실행
 if(GUI.Button(new Rect(x,y,가로,세로), 텍스트) {
   //any code
@@ -56,5 +56,16 @@ if(newVal!=val) {
 
 ## 3. GUIStyle
 꼭 필요는 없지만 해당 UI를 꾸미고 싶다면 써야합니다
+ - `<GUIStyle>.normal.textColor`로 텍스트 색상 지정
+ - `<GUIStyle>.fontSize`로 텍스트 크기 지정
+ - `<GUIStyle>.font`로 텍스트 폰트 지정
+```cs
+GUIStyle textStyle = new GUIStyle();
+textStyle.fontSize = 50;
+textStyle.alignment = TextAnchor.UpperCenter;
+textStyle.normal.textColor = Color.white;
+textStyle.font = RDString.GetFontDataForLanguage(RDString.language).font;
+GUI.Label(new Rect(x,y,가로,세로), 텍스트, textStyle);
+```
 
-더욱 자세한건 [문서](https://docs.unity3d.com/ScriptReference/GUIStyle.html)를 참고해주세요
+텍스트뿐만 아니라 다른 것도 가능하고 더욱 자세한건 [문서](https://docs.unity3d.com/ScriptReference/GUIStyle.html)를 참고해주세요
