@@ -139,7 +139,7 @@ private 필드를 불러올때는 굳이 파람미터 안쓰고 리플렉션을 
 ```cs
 typeof(T).GetField(Method_Name, AccessTools.all)?.GetValue(Class_Instance);
 ```
-값을 설정하는 것도 가능하고 꼭 필드가 아니어도 가능합니다 
+값을 설정하는 것도 가능하고 꼭 필드가 아니어도 가능합니다     
 더욱 더 자세한건 [공식 문서](https://docs.microsoft.com/ko-kr/dotnet/api/system.reflection?view=net-5.0)를 참고해주세요 
 
 
