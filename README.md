@@ -37,5 +37,49 @@
 
 
 ## 4. 셋업 만들기
+![탭들](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/img/tabs.png?raw=true)     
+프로젝트 생성될때 같이 생긴 Class1.cs을 우클릭 후 이름을 바꿔서 Main.cs라고 지정해주고 정적으로 해줍니다.
+```cs
+public static class Main
+{
+}
+```
+그리고 Setup, OnToggle이라는 메소드도 같이 만들어줍니다.      
+Setup은 UMM이 이 모드를 실행할때 처음 시작하는 메소드입니다.
+
+```cs
+public static class Main
+{
+  public static UnityModManager.ModEntry.ModLogger Logger;
+  public static Harmony harmony;
+  public static bool IsEnabled = false;
+  
+  internal static void Setup(UnityModManager.ModEntry modEntry)
+  {
+    Logger = modEntry.Logger;
+    modEntry.OnToggle = OnToggle;
+  }
+  
+  private static bool OnToggle(UnityModManager.ModEntry modEntry, bool value)
+  {
+    IsEnabled = value;
+    
+    if (value)
+    {
+      //켜질때
+      harmony = new Harmony(modEntry.Info.Id);
+      harmony.PatchAll(Assembly.GetExecutingAssembly());
+    }
+    else
+    {
+      //꺼질때
+      harmony.UnpatchAll(modEntry.Info.Id);
+    }
+  }
+}
+```
+
+### Setup을 public이 아닌 internal로 하는 이유?
+public은 프로젝트 내에서만 접근이 가능합니다, UMM은 외부 프로젝트에서 접근하기 때문에 internal을 사용해야합니다
 
 [X] [[➡]](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/dev2.md) (1/6)
