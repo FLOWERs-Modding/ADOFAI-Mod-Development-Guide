@@ -70,6 +70,7 @@ public static class Main
       //꺼질때
       harmony.UnpatchAll(modEntry.Info.Id);
     }
+    return true;
   }
 }
 ```
