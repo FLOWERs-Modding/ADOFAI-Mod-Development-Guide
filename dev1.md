@@ -33,7 +33,7 @@
 
 ## 4. 셋업 만들기
 ![탭들](https://github.com/NoBrain0917/ADOFAI-Mod-Development-Guide/blob/main/img/tabs.png?raw=true)     
-프로젝트 생성될때 같이 생긴 Class1.cs을 우클릭 후 이름을 바꿔서 Main.cs라고 지정해주고 정적(static) 으로 해주세요
+프로젝트 생성될때 같이 생긴 Class1.cs을 우클릭 후 이름을 바꿔서 Main.cs라고 지정해줍니다. ( 꼭 Main일 필요 없음 )
 ```cs
 public static class Main
 {
